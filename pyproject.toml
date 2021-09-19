@@ -1,8 +1,8 @@
 [build-system]
-requires = ["flit_core >=3.2,<4"]
+requires = ["requests 2.26.0","beautifulsoup4 4.10.0"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
-dynamic = ["version", "description"]
+name = "AnimeFenix"
+authors = [{name = "Raddiactive", discord = "Raddiactive#1886"}]
+dynamic = ["1.0", "A simple anime web api"]
